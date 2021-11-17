@@ -1,5 +1,4 @@
 function setEllipsis(el, binding, vnode) {
-  console.log(99)
   // 接收指令传参（行数、字体大小、右侧留白数）
   const lineNum = binding.value.lines || 1;
   const showTitle = binding.value.showTitle || false;
@@ -8,7 +7,7 @@ function setEllipsis(el, binding, vnode) {
   const text = el.innerHTML;
   if (!text.length) return;
   // 是否显示title
-  if (showTitle) el.setAttribute('title', text);
+  if (showTitle) el.setAttribute('title', text.trim());
 
   // 获取文本的行高
   const computedStyle = window.getComputedStyle(el, null);

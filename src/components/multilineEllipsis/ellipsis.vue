@@ -28,7 +28,6 @@ export default {
         setEllipsis() {
             let el = this.$refs['wrap']
             let text = this.text
-            console.log(el)
             // 获取文本的行高
             const computedStyle = window.getComputedStyle(el, null);
             const textLineHeight =
