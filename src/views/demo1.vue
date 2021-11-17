@@ -1,6 +1,4 @@
 <script>
-// https://stackoverflow.com/questions/36607932/unterminated-template-literal-syntax-error-when-literal-contains-script-tag
-/* eslint-disable no-useless-escape */
 const code_example_1 = `<template>
     <div class="content">
         <div class="ellipsis w200">

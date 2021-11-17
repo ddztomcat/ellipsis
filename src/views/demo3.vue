@@ -50,7 +50,6 @@ export default {
             }
             document.body.removeChild(newDiv);
             el.innerHTML = index ? \`\${text.substring(0, index - 3)}...\` : text;
-            el.setAttribute('data-overflow', !!index);
           }
         },
     },
