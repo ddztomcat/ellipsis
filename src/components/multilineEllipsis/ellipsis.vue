@@ -33,7 +33,6 @@ export default {
             const textLineHeight =
                 computedStyle.getPropertyValue("line-height");
             const textFontSize = computedStyle.getPropertyValue("font-size");
-            // console.log(computedStyle);s
             // 设置文本超出指定行数后隐藏样式
             const limitHeight = parseInt(textLineHeight) * this.lines;
             if (limitHeight) {

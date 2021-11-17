@@ -1,13 +1,14 @@
 <template>
   <div id="app">
     <!-- <demo></demo> -->
-    <test></test>
+    <!-- <test></test> -->
+     <router-view/>
   </div>
 </template>
 
 <script>
-import Demo from './components/Demo.vue'
-import test from './components/test.vue'
+import Demo from './views/Demo.vue'
+import test from './views/demo1.vue'
 export default {
   name: 'app',
   components: {
@@ -23,5 +24,8 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #2c3e50;
+}
+body {
+  margin: 0;
 }
 </style>
