@@ -13,7 +13,7 @@ export default {
             // 接收指令传参
             let lineNum = binding.value.lines || 1;
             let showTitle = binding.value.showTitle || false;
-            let lineHeight = binding.value.lineHeight || false;
+            let lineHeight = binding.value.lineHeight || 22;
 
             // 获取显示的文本内容
             let text = el.innerHTML;
