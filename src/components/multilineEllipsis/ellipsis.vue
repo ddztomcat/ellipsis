@@ -58,7 +58,6 @@ export default {
             el.innerHTML = targetIndex
                 ? `${text.substring(0, targetIndex - 3)}...`
                 : text;
-            el.setAttribute("data-overflow", !!targetIndex);
         },
     }
 };
