@@ -75,6 +75,7 @@ display: -webkit-box;
 overflow: hidden;
 text-overflow: ellipsis;
 ```
+实现效果如下：
 ![效果图](//img10.360buyimg.com/img/jfs/t1/197832/20/18452/405474/619f0e89E31ac34bb/47de10dd32c60307.gif)
 
 虽然`-webkit`的方式能够实现，但存在兼容性问题，只能支持webkit内核的浏览器
@@ -128,7 +129,7 @@ function setEllipsis(el, binding, vnode) {
 ```
 ## 4、封装成ellipsis指令或组件
 
-省略指令`v-ellipsis`会接收3个参数：
+指令`v-ellipsis`会接收3个参数：
 
 | 参数      | 说明            | 类型
 |:--------:| :-------------:|:-------------:|
